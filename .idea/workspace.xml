@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c1645d0-95cd-4779-8476-8967aa5deaec" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1b41gQBUUoDPaqjh1R8uQIYkBvs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wangcai" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\LHY\jirengu\cv-2020-master\src\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c1645d0-95cd-4779-8476-8967aa5deaec" name="默认更改列表" comment="" />
+      <created>1587876662669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587876662669</updated>
+      <workItem from="1587876664105" duration="2157000" />
+      <workItem from="1588223983649" duration="9042000" />
+      <workItem from="1589101270244" duration="1319000" />
+      <workItem from="1589175368650" duration="25000" />
+      <workItem from="1589714687256" duration="166000" />
+      <workItem from="1589778962833" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1120" y="275" key="FileChooserDialogImpl" timestamp="1589778973314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1120" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589778973314" />
+    <state x="1003" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1588232859416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1003" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588232859416" />
+  </component>
+</project>

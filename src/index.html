@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>我的简历</title>
+    <style>
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #eee;
+            margin: 20px 0;
+        }
+
+        .trans_img{
+            height: 80px;
+        }
+        article {
+            width: 21cm;
+            min-height: 29.7cm;
+            background: white;
+            margin: 0 auto;
+            overflow: auto;
+            padding: 1em;
+        }
+    </style>
+    <style media="print">
+        body {
+            margin: 0;
+        }
+
+        .page2 {
+            page-break-before: always;
+            margin-top: 30px;
+        }
+    </style>
+    <style>
+        body {
+        }
+
+        p {
+            margin: .3em 0;
+        }
+
+        h1 {
+            font-size: 25px;
+            margin-top: 0;
+        }
+
+        h4,
+        h5,
+        h6 {
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        strong {
+            font-weight: normal;
+            color: #f60;
+        }
+
+        a {
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+
+        p,
+        li {
+            color: #666;
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        .bio {
+            position: relative;
+        }
+
+        .bio img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+
+    <style>
+        .projects {
+        }
+
+        .projects p {
+            color: #666;
+        }
+
+        .projects strong {
+            color: #f60;
+        }
+
+        .projects > ol {
+            margin-top: 0;
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        .projects > ol > li {
+            margin-bottom: 24px;
+        }
+
+        .projects > ol > li > header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .projects > ol > li h3 {
+            display: inline-block;
+        }
+    </style>
+    <style>
+        .skills {
+        }
+
+        #skills {
+
+            width: 500px;
+            height: 270px;
+        }
+
+        .skills > .wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .skills > .wrapper > :first-child {
+            margin-right: 24px;
+        }
+
+        .skills > .wrapper > #skills {
+        }
+
+        .skills > .wrapper > ol {
+            color: #666;
+            list-style: inherit;
+            padding-left: 12px;
+        }
+
+        .skills > .wrapper strong {
+            color: #f60;
+        }
+
+        .skills > .wrapper > ol > li {
+            line-height: 1.2;
+            margin-bottom: 8px;
+        }
+    </style>
+    <style>
+        .openSource {
+        }
+
+        .openSource > h2 {
+        }
+
+        .openSource header img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .openSource > ul {
+        }
+
+        .openSource > ul > li {
+            margin-bottom: 24px;
+        }
+
+        .openSource header {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .openSource h3 {
+        }
+    </style>
+    <style>
+
+
+        .jobs > h2 {
+        }
+
+        .jobs > ol {
+        }
+
+        .jobs > ol > li {
+            margin: 12px 0;
+        }
+
+        .jobs header {
+            display: flex;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .jobs header > h3 {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .jobs header > h4 {
+            margin-left: 1em;
+            font-size: 18px;
+        }
+
+        .jobs header > span {
+            font-size: 18px;
+            margin-left: auto;
+        }
+    </style>
+
+
+    <style>
+        @media (max-width: 500px) {
+            body {
+                margin: 0;
+            }
+
+            article {
+                width: auto;
+                height: auto;
+            }
+
+            .bio img {
+                display: none;
+            }
+
+            .skills .wrapper {
+                flex-direction: column;
+            }
+
+            #skills {
+                width: auto;
+            }
+
+            .jobs header {
+                flex-direction: column;
+            }
+
+            .jobs header > h3,
+            .jobs header > h4,
+            .jobs header > span {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<article>
+    <section class="bio">
+        <h1>李浩宇</h1>
+      <img src="images/myPhoto.jpg" >
+        <p>
+            男 | 23岁 | 前端开发工程师 | 东莞
+        </p>
+        <p>
+            手机：13268487636 | 微信：13268487636 | 邮箱：847798512@qq.com
+        </p>
+    </section>
+
+
+    <section class="projects">
+        <h2>项目经历</h2>
+        <ol>
+            <li>
+                <header>
+                    <h3>小白记账本</h3>
+                   
+                </header>
+               
+
+                <p>
+                      平时出门的时候，总想把花钱的金额记下来，用手机自带的记事本又太垃圾了，网上的<br>记账软件又要注册啥的太麻烦。
+                </p>
+                <p>
+                    所以自己设计了一款直男式极简记账APP，该软件的特点是一键快速记账，没有磨磨唧唧。
+                </p>
+                <p>
+                    该项目我分别使用了 <strong>Vue</strong>跟<strong>React</strong>来做，用不同的技术实现相似的APP，部分重要的技术<br>在我的<a href="https://www.zhihu.com/people/bu-ya-yi-sheng/posts">博客</a>里都有记录下来，方便查阅。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h4>Vue-version</h4>
+                    <span>
+              <a href="https://github.com/JamesLHY/xiaobai--notePad-vue-version">源码私有</a>
+              <a href="http://lihaoyu666.xyz/xiaobai-notepad-vue-version--website/">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    基于 <strong>Vue</strong> / <strong>TypeScript</strong>。
+                </p>
+
+               
+                <p>
+                    该项目使用 <strong>Vue Router,svg-sprite-loader,Vuex</strong>，让我对这几方面有了一定的理解和应用。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h4>React-version</h4>
+                    <span>
+              <a href="https://github.com/JamesLHY/xiaobai--notePad-react-">源码私有</a>
+              <a href="http://lihaoyu666.xyz/xiaobai-notePad-react-version-website/index.html">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    基于 <strong>React</strong>  / <strong>TSX</strong>。
+                </p>
+
+                
+                <p>
+                    该项目使我对 <strong>webpack</strong> 、<strong>React Router</strong>、 <strong>Hooks API</strong>、<strong>LocalStorage</strong> 也有了一定的理解。
+                </p>
+
+            </li>
+            <li>
+                <header>
+                    <h3 style="transform: translateY(30px)">纯译-小白翻译</h3>
+                    <span>
+              <img class="trans_img" src="images/trans.jpg" alt="">
+            </span>
+                </header>
+                <p>
+                    一款方便的多语言翻译 <strong>小程序</strong> 应用，包括英、法、西、韩、日等等可供翻译的语言。
+                </p>
+
+                <p>
+                   该项目使用了<strong>微信小程序的API</strong>，<strong>百度翻译的调用</strong>，<strong>模块化</strong>，<strong>md5</strong>等等。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h3>myNav</h3>
+                    <span>
+              <a href="https://github.com/JamesLHY/myNav">源码私有</a>
+              <a href="http://lihaoyu666.xyz/myNav/src/index.html">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    该项目是我之前设计的一款基于<strong>jQuery</strong>的极简导航栏，特点是界面清晰，一目了然。
+                </p>
+                <p>
+                    在CSS方面，运用了：<strong>flex布局 </strong>，<strong>伪元素 </strong>，<strong>CSS选择器优先级 </strong>，<strong>媒体查询 </strong>等知识。
+                </p>
+                <p>
+                    在JS方面，运用了<strong>hashMap</strong>,<strong>事件监听</strong>等相关的知识。
+                </p>
+                <p>
+                    在其他方面，也包括了<strong>localStorage</strong>,<strong>SVG Symbols</strong>
+                    ,<strong>iconfont.cn</strong>,<strong>阻止冒泡</strong>,<strong>JSON 序列化</strong>等知识。
+                </p>
+            </li>
+        </ol>
+    </section>
+
+    <section class="skills">
+        <h2>技能</h2>
+        <div class="wrapper">
+           
+            <ol>
+                <li>熟悉页面制作技巧，能将设计稿<strong>完美还原。</strong></li>
+                <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等。</li>
+                <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等。</li>
+                <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Redux 等。</li>
+                <li>熟悉 ES6，包括 let / Promise / await / 析构赋值。</li>
+                <li>了解 <strong>TypeScript</strong> 的使用。</li>
+                <li>了解 <strong>Webpack 的配置和优化。</strong></li>
+            </ol>
+        </div>
+    </section>
+
+
+    <section class="openSource">
+        <h2 class="page2" >开源项目</h2>
+        <ul>
+            <li>
+                <header>
+                    <h3>自己写的 DOM 库</h3>
+                    <a href="https://github.com/JamesLHY/handwriting-dom/tree/master">源码链接</a>
+                </header>
+                <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
+            </li>
+            <li >
+                <header>
+                    <h3>pikachu</h3>
+                    <span>
+              <a href="https://github.com/JamesLHY/Pikachu-1">源码链接</a>
+              <a href="http://lihaoyu666.xyz/Pikachu-1/src/index.html">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    这是我在学习CSS3期间的一份小项目。
+                </p>
+                <p>
+                    该项目包含了<strong>盒模型</strong>,<strong>绝对定位元素</strong>，<strong>flex布局</strong>,
+                    <strong>CSS选择器</strong>等知识点。
+                </p>
+
+                <p>
+                    通过该项目，我对于CSS各种概念的理解更深了一个层次。
+                </p>
+            </li>
+            <li >
+                <header>
+                    <h3>Canvas小画板</h3>
+                    <span>
+              <a href="https://github.com/JamesLHY/canvas">源码私有</a>
+              <a href="http://lihaoyu666.xyz/canvas/">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    这是一个在学习<strong>Canvas</strong>知识阶段的一个小项目。
+                </p>
+                <p>
+                    该项目主要涉及到Canvas的部分API的运用以及少量关于JS的绑定事件。
+                </p>
+
+            </li>
+        </ul>
+    </section>
+
+    <section class="others">
+        <h2>其他链接</h2>
+        <ul>
+            <li><a href="https://www.zhihu.com/people/bu-ya-yi-sheng/posts">我的博客</a>，目前已有 21 篇技术文章。</li>
+            <li><a href="https://github.com/JamesLHY">我的 GitHub</a>，过去三个月有 150多次提交。</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>教育经历</h2>
+        <p>
+            <span><time>2015年</time>~<time>2019年</time></span>
+            广东外语外贸大学南国商学院 商务英语 本科
+        </p>
+        <h2>荣誉证书</h2>
+        <p>英语专业四级，计算机一级</p>
+    </section>
+
+</article>
+<script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
+<script src="./main.js"></script>
+</body>
+
+</html>
